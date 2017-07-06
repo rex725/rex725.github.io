@@ -23,8 +23,31 @@ body {
 	font-size: 1.25em;
 }
 
+.hidden {
+	display: none;
+}
+
+a {
+	color: #FFF;
+}
+
+a:hover {
+	color: #bdbdbd;
+}
+
+#campfire {
+	position:fixed;
+	left: -50px;
+	bottom: 0;
+}
+
 @media screen and (min-width: 500px) {
 	body {
 		background-size: 100vw 100vh;
 	}
+	#campfire {
+	position:fixed;
+	left:300px;
+	bottom: 0;
+}
 }
