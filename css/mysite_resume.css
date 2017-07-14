@@ -1,0 +1,62 @@
+body {
+	background-color: #000;
+}
+
+.character_boxes {
+	height: 100vh;
+	border: 1px solid #FFF;
+	font-family:'Press Start 2P', cursive;
+	color: #FFF;
+}
+
+header {
+	height: 15vh;
+	font-family:'Press Start 2P', cursive;
+	color: #FFF;
+}
+
+.anchors {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.headers {
+	text-align: center;
+	text-decoration: underline;
+}
+
+h3 {
+	padding-left: 1vw
+}
+
+#character_box {
+	text-align: center;
+}
+
+#character {
+	height: 50%;
+	width: 75%;
+	margin-top: 25vh;
+	margin-bottom: 25vh;
+}
+
+@media screen and (min-width: 500px) {
+	#title_screen {
+		text-align: left;
+	}
+
+	#level_select {
+		text-align: right;
+	}
+	.character_boxes {
+		height: 80vh;
+		width: 33.33vw;
+		float: left;
+		border-radius: 25px;
+	}
+	#character {
+		height: 60%;
+		margin-top: 20vh;
+		margin-bottom: 20vh;
+	}
+}

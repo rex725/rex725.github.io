@@ -38,7 +38,7 @@ $('#portfolio a').click(function(event) {
 	console.log('firing');
 		event.preventDefault();
 		setTimeout(function() {
-			window.location.href = '/html/mysite_resume.html';
+			window.location.href = '/html/mysite_portfolio.html';
 		},9000);
 		$('.character_selector').html('<img src="/img/sword_swing_right.gif" id="actor_swinging_sword" alt="character">');
 		setTimeout(function() {
