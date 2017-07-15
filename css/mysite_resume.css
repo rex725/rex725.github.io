@@ -3,10 +3,19 @@ body {
 }
 
 .character_boxes {
-	height: 100vh;
+	position: relative;
+	height: 85vh;
 	border: 1px solid #FFF;
 	font-family:'Press Start 2P', cursive;
 	color: #FFF;
+}
+
+#character_box {
+	height: 50vh;
+}
+
+#spells {
+	height: 50vh;
 }
 
 header {
@@ -20,6 +29,20 @@ header {
 	font-size: 1.5em;
 }
 
+a {
+	color: #FFF;
+}
+
+a:hover {
+	color: #bdbdbd;
+	text-decoration: none;
+}
+
+#arrows {
+	height: .5em;
+	width: 1em;
+}
+
 .headers {
 	text-align: center;
 	text-decoration: underline;
@@ -28,16 +51,36 @@ header {
 h3 {
 	padding-left: 1vw
 }
+.progress_bars {
+	width: 80%;
+	float: right;
+	padding-right: 10px;
+}
 
 #character_box {
 	text-align: center;
 }
 
 #character {
-	height: 50%;
-	width: 75%;
+	height: 1.5em;
+	width: 10em;
 	margin-top: 25vh;
 	margin-bottom: 25vh;
+}
+
+#spell_shield {
+	height: 33em;
+}
+
+#spell_heal {
+	height: 26em;
+	margin-top: 5vh;
+}
+
+#resume_link {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
 
 @media screen and (min-width: 500px) {
@@ -54,9 +97,35 @@ h3 {
 		float: left;
 		border-radius: 25px;
 	}
+
+	#character_box {
+		height: 80vh;
+	}
+
 	#character {
-		height: 60%;
-		margin-top: 20vh;
-		margin-bottom: 20vh;
+		height: 28%;
+		margin-top: 35%;
+		margin-bottom: 37%;
+	}
+}
+@media screen and (max-width: 850px) {
+	h3 {
+		font-size: 1em;
+	}
+}
+@media  screen and (max-width: 650px) {
+		.headers {
+			font-size: 2em;
+		}		
+}
+@media screen and (max-width: 800px) {
+	#character {
+		height: 40%;
+		margin-top: 25vh;
+		margin-bottom: 25vh;
+		}
+	#resume_link {
+		text-align: right;
+
 	}
 }
