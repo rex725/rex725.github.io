@@ -88,9 +88,22 @@ h3 {
 	margin-top: 4vh;
 }
 
-#spell_atomic {
-	height: 24em;
-	margin-top: 4vh;
+#beam_spell {
+	height: 20em;
+	margin-top: 8vh;
+	margin-left: 21%;
+}
+
+#spell_teleportation {
+	height: 16.5em;
+	margin-top: 10vh;
+	margin-right: 1%;
+}
+
+#spell_fire-djin {
+	height: 13em;
+	margin-top: 18vh;
+	margin-right: 40%;
 }
 
 #resume_link {
