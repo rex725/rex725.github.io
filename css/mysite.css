@@ -1,7 +1,9 @@
 body {
 	background-image: url('/img/background_hell.png');
 	background-repeat: no-repeat;
-	background-size: 175vw 120vh;
+	background-size: 175vw 100vh;
+	background-position: absolute;
+	bottom: 0;
 }
 
 #title {
