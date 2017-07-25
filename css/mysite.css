@@ -2,8 +2,6 @@ body {
 	background-image: url('/img/background_hell.png');
 	background-repeat: no-repeat;
 	background-size: 175vw 90vh;
-	background-position: -60px 20px;
-
 }
 
 #title {
@@ -86,6 +84,11 @@ a:hover {
 	bottom: 12px;
 	height: 12em;
 	width: 12em;
+}
+@media screen and (max-width: 500px) {
+	body {
+		background-position: -60px -30px;
+	}
 }
 
 @media screen and (min-width: 500px) {

@@ -16,6 +16,7 @@ body {
 
 #spells {
 	height: 50vh;
+	font-size: .75em;
 }
 
 header {
@@ -125,6 +126,10 @@ h3 {
 		width: 33.33vw;
 		float: left;
 		border-radius: 25px;
+	}
+
+	#spells {
+		height: 80vh;
 	}
 
 	#character_box {
