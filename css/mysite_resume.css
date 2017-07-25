@@ -63,7 +63,7 @@ h3 {
 }
 
 #character {
-	height: 1.5em;
+	height: 2em;
 	width: 10em;
 	margin-top: 25vh;
 	margin-bottom: 25vh;
@@ -158,9 +158,9 @@ h3 {
 }
 @media screen and (max-width: 800px) {
 	#character {
-		height: 40%;
+		height: 11em;
 		margin-top: 25vh;
-		margin-bottom: 25vh;
+		margin-bottom: 30vh;
 		}
 	#resume_link {
 		text-align: right;
