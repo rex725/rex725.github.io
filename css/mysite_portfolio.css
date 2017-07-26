@@ -5,10 +5,28 @@ body {
 .cave_entrances{
 	height: 100vh;
 	width: 100vw;
+	position: absolute;
+	z-index: 0;
 }
+
+.level_selectors {
+	height: 100vh;
+	width: 33.33vw;
+	position: absolute;
+	z-index: 1;
+}
+h1{
+	color: #FFF;
+	font-family:'Press Start 2P', cursive;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
+}
+
 @media screen and (min-width: 500px) {
 	.cave_entrances{
 		height: 100vh;
 		width: 100vw;
+		position: absolute;
 	}
 }
