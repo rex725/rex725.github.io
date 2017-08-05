@@ -17,7 +17,8 @@ $('#start').click(function() {
 $('#resume').hover(function() {
 	$('#resume a').text('Resume');
 });
-$('#resume a').click(function(event) {
+$('#resume a').one('click', function(event) {
+	var runAnimation = true;
 	var windowWidth = $(window).width();
 	event.preventDefault();
 	if (windowWidth <= 500) {
@@ -49,7 +50,7 @@ $('#resume a').click(function(event) {
 		}, 1000);
 	};		
 });
-$('#portfolio a').click(function(event) {
+$('#portfolio a').one('click', function(event) {
 	console.log('firing');
 	var windowWidth = $(window).width();
 	event.preventDefault();
