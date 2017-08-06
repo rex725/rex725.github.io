@@ -146,9 +146,9 @@ h3 {
 		margin-left: 20%;
 	}
 }
-@media screen and (max-width: 827px) {
+@media screen and (max-width: 1327px) {
 	.character_boxes {
-		width: 30vw;
+		width: 30%;
 	}
 }
 @media screen and (max-width: 850px) {
