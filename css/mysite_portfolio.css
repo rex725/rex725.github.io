@@ -31,9 +31,16 @@ h1{
 #title_screen {
 	text-align: right;
 }
-#arrows {
-	height: 1em;
-	width: 1.50em;
+.arrows {
+	height: .45em;
+	width: 1em;
+}
+#arrowRight{
+	height: 2em;
+	width: 2em;
+	position: relative;
+	right: -300px;
+	bottom: -75px;
 }
 h2{
 	color: #FFF;
