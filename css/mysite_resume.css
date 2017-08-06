@@ -123,7 +123,7 @@ h3 {
 	}
 	.character_boxes {
 		height: 80vh;
-		width: 33.33vw;
+		width: 33vw;
 		float: left;
 		border-radius: 25px;
 	}
@@ -146,11 +146,11 @@ h3 {
 		margin-left: 20%;
 	}
 }
-@media screen and (max-width: 1327px) {
+/*@media screen and (max-width: 1327px) {
 	.character_boxes {
 		width: 30%;
 	}
-}
+}*/
 @media screen and (max-width: 850px) {
 	h3 {
 		font-size: 1em;
