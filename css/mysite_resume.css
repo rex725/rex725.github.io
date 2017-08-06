@@ -146,11 +146,11 @@ h3 {
 		margin-left: 20%;
 	}
 }
-/*@media screen and (max-width: 1327px) {
+@media screen and (min-width: 1280px) {
 	.character_boxes {
-		width: 30%;
+		width: 33.33vw;
 	}
-}*/
+}
 @media screen and (max-width: 850px) {
 	h3 {
 		font-size: 1em;
