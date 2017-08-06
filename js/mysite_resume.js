@@ -1,4 +1,6 @@
 'use strict';
+var windowWidth = $(window).width();
+console.log(windowWidth);
 $('#html').hover( 
 	function() {
 		$(this).css('background-color','#fff');
