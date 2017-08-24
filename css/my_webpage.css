@@ -6,27 +6,44 @@ Header
 	background-image: url(/img/galaxy-wallpaper-11.jpg);
 	width: 100vw;
 	height: 100vh;
+	opacity: 0.75;
+	z-index: 0;
 }
-
+ #personal_paragraph {
+ 	padding-top: 7em;
+ 	color: #FFF;
+ 	text-align: center;
+ 	font-family: 'Encode Sans Semi Condensed', sans-serif;
+ 	z-index: 1;
+ }
 /*********************************************
 Main
 *********************************************/
-
-main ul {
+.resume_background_image {
+	background-image: url(/img/galaxy-wallpaper-11.jpg);
+	width: 100%;
+	height: 100%;
+}
+#resume {
+	padding-top: 5em;
+	padding-left: 2em;
+	padding-right: 1.25em;
+	background-color: #FFF;
+}
+.contact-info {
 	list-style: none;
 	text-align: left;
 	padding: 0;
 }
 
-.resume_contact {
-	text-align: right;
-	padding-top: 20px;
-}
-
 .contact-info>li {
 	padding: 2px 0;
 }
-
+.resume_headers {
+	color: #3b2d9e;
+	text-align: center;
+	background-color: #808080;
+}
 
 /*********************************************
 Footer
@@ -34,6 +51,7 @@ Footer
 
 footer {
 	text-align: center;
+	color: #000;
 }
 
 /*********************************************
@@ -47,6 +65,10 @@ Portfolio: Main
 
 #row_padding {
 	padding-top: 70px;
+}
+.portfolio_image {
+	height: 100%;
+	width: 100%;
 }
 
 

@@ -1,0 +1,30 @@
+#professional {
+	background-image: url(/img/Professional_half.png);
+	height: 100vh;
+	z-index: 0;
+}
+#creative {
+	background-image: url(/img/Creative_half.png);
+	height: 100vh;
+	z-index: 0;
+}
+#proffessional_header {
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+	position: fixed;
+	top: 9em;
+	left: 7em;
+	font-family: 'Oswald', sans-serif;
+	z-index: 1;
+}
+#creative_header {
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+	position: fixed;
+	top: 9em;
+	left: 25em;
+	font-family: 'Oswald', sans-serif;
+	z-index: 1;
+}

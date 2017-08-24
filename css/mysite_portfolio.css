@@ -13,11 +13,18 @@ body {
 	height: 65vh;
 	position: absolute;
 	bottom: 0;
-	z-index: 0;
+	z-index: 3;
 }
 .links {
 	position: absolute;
 	z-index: 2;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: #bdbdbd;
+	text-decoration: none;
 }
 h1{
 	color: #FFF;
@@ -42,6 +49,13 @@ h1{
 	right: -325px;
 	bottom: -75px;
 }
+#arrowLeft{
+	height: 2em;
+	width: 2em;
+	position: relative;
+	right: -30px;
+	bottom: -75px;
+}
 h2{
 	color: #FFF;
 	font-family:'Press Start 2P', cursive;
@@ -49,23 +63,8 @@ h2{
 	text-align: center;
 	vertical-align: middle;
 }
-#first_cave {
-	background-image: url(/img/professional_website.png);
-	background-repeat: no-repeat;
-	background-size: 15em 10em;
-	background-position: 50% 30%;
-}
-#second_cave {
-	background-image: url(/img/calculator.png);
-	background-repeat: no-repeat;
-	background-size: 15em 10em;
-	background-position: 45% 30%;
-}
-#third_cave {
-	background-image: url(/img/google_maps_api.png);
-	background-repeat: no-repeat;
-	background-size: 15em 10em;
-	background-position: 50% 30%;
+.hidden {
+	display: none;
 }
 @media screen and (min-width: 500px) {
 	.cave_entrances{

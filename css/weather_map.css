@@ -29,7 +29,9 @@ ul {
     border-radius: 25px;
     background-color: #f0f5d8;
 }
-
+#instructions {
+    clear:left;
+}
 #map-canvas {
     height: 50vh;
     width: 100%;
