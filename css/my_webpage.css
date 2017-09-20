@@ -78,8 +78,11 @@ Portfolio: Main
 	Header
 	*********************************************/
 	
-	#header_image {
-		height: 35vh;
+	.background_image{
+		height:40vh;
+	}
+	#personal_paragraph{
+		display:none;
 	}
 
 	/*********************************************
@@ -91,14 +94,13 @@ Portfolio: Main
 		padding-top: 0;
 	}
 	.portfolio_image {
-		width: 100vw;
+		width: 90vw;
 		height: 50vh;
+		padding-left: 0;
 	}
-
 	#row_padding {
-	padding-top: 50px;
+		padding-top: 0;
 	}
-
 	/*********************************************
 	Footer
 	*********************************************/
