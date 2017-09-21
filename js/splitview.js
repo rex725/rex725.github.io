@@ -23,4 +23,12 @@ $(document).ready(function() {
 			$(this).css('opacity', 1);
 		}
 	);
+	var windowWidth = $(window).width();
+	if (windowWidth <= 500) {
+		console.log('firing');
+		$('#proffessional_header').addClass('header');
+		$('#proffessional_header').text('Professional');
+		$('#creative_header').addClass('header');
+		$('#creative_header').text('Creative');
+	};
 });
