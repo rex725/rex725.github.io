@@ -56,12 +56,39 @@ $('#third_cave').hover(
 	}
 );
 $('#arrowRight').click(function() {
-	$('#first_cave').html("<h2><a href='/html/home_page.html' id='level_four'>Level 4</a></h2><img src='/img/arrow_left.png' id='arrowLeft'>");
-	$('#second_cave').html("<h2><a href='/html/home_page.html' id='level_five'>Level 5</a></h2>");
+	$('#first_cave').html("<h2><a href='#' id='level_four'>Level 4</a></h2><img src='/img/arrow_left.png' id='arrowLeft'>");
+	$('#second_cave').html("<h2><a href='//globetrotter.pro' id='level_five'>Level 5</a></h2>");
 	$('#third_cave').html("<h2><a href='/html/home_page.html' id='level_six'>Level 6</a></h2>");
-});
-$('#arrowLeft').click(function() {
-	$('#first_cave').html("<h2><a href='/html/home_page.html' id='level_one'>Level 1</a></h2><img src='/img/arrow_left.png' id='arrowLeft'>");
-	$('#second_cave').html("<h2><a href='/html/home_page.html' id='level_two'>Level 2</a></h2>");
-	$('#third_cave').html("<h2><a href='/html/home_page.html' id='level_three'>Level 3</a></h2>");
+	$('#first_cave').hover(
+		function() {
+			$('#level_four').text('Oldlister');
+			$(this).css('background-image', 'url(/img/adlister.png)');
+			$(this).css('background-repeat', 'no-repeat');
+			$(this).css('background-size', '15em 10em');
+			$(this).css('background-position', '50% 30%');
+			$('#level_one').css('z-index', '0');
+	
+		},
+		function() {
+			$('#level_four').text('Level 4');
+			$(this).css('background-image', '');
+		}
+	);
+	$('#second_cave').hover(
+		function() {
+			$('#level_five').text('Globetrotter');
+			$(this).css('background-image', 'url(/img/globetrotter.png)');
+			$(this).css('background-repeat', 'no-repeat');
+			$(this).css('background-size', '15em 10em');
+			$(this).css('background-position', '50% 30%');
+			$('#level_one').css('z-index', '0');
+		},
+		function() {
+			$('#level_four').text('Level 5');
+			$(this).css('background-image', '');
+		}
+	);
+	$('#arrowLeft').click(function() {
+		location.reload();
+	});
 });
