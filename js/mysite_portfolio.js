@@ -57,7 +57,7 @@ $('#third_cave').hover(
 );
 $('#arrowRight').click(function() {
 	$('#first_cave').html("<h2><a href='#' id='level_four'>Level 4</a></h2><img src='/img/arrow_left.png' id='arrowLeft'>");
-	$('#second_cave').html("<h2><a href='//globetrotter.pro' id='level_five'>Level 5</a></h2>");
+	$('#second_cave').html("<h2><a href='http://globetrotter.pro' id='level_five'>Level 5</a></h2>");
 	$('#third_cave').html("<h2><a href='/html/home_page.html' id='level_six'>Level 6</a></h2>");
 	$('#first_cave').hover(
 		function() {
